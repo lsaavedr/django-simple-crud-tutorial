@@ -126,6 +126,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 INSTALLED_APPS += [
     "rest_framework",
     "drf_spectacular",
+    "drf_spectacular_sidecar",
     "cats.apps.CatsConfig",
 ]
 
